@@ -1,4 +1,9 @@
 FROM quay.io/jupyter/pyspark-notebook:spark-3.5.3
+
+USER ${NB_UID}
+RUN curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs/ | sh -s -- -y
+ENV PATH="/home/jovyan/.cargo/bin:${PATH}"
+
 RUN pip install delta-sharing findspark
 RUN echo 'import findspark' > /home/jovyan/session.py \
     && echo 'findspark.init()' >> /home/jovyan/session.py \
