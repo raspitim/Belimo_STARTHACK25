@@ -1,0 +1,60 @@
+,name,description
+0,ValveType,Valve Type
+1,DN_Size,DN Size of Valve
+2,RelFlow_Fb_Rel2Vmax,Relative Flow in %
+3,AbsFlow_Fb_m3s,Absolute Flow in m3/s
+4,Pmax_Rel_Write,Maximum Power Limit in %
+5,RelPower_Fb_Rel2Pmax,Relative Power %
+6,AbsPower_Fb_W,Absolute Power in W
+7,T1_remote_K,Temperature 1 remote in K
+8,T2_embeded_K,Temperature 2 embeded in K
+9,DeltaT_Limitation_Write,Delta T Limitation Type
+10,SpDeltaT_applied_K,Applied Setpoint DeltaT in K
+11,DeltaT_K,Delta Temperature in K
+12,ControlMode_Write,Control Mode
+13,Cooling_E_J,Cooling Energy in J
+14,Heating_E_J,Heating Energy in J
+15,Error_Status_Cloud,Err_State_Cloud_(MSB=FreezeWarn|MP2_nAlive|RevFlow|BPosG|P_Dmd_nReached|V_Dmd_nReached|Airbubbles|Flow_with_closed_Valve|Actuator_Stalled|Flow_Signal_Faulty|T2_Err|LSB=T1_Err)
+16,Glycol_Concentration_Rel,Glycol concentration in %
+17,SpDeltaT_K_Write,Setpoint Delta T in K
+18,SpFlow_DeltaT_lmin_Write,Setpoint Flow in m3/s at Delta T
+19,OperatingHours,Operating Time in h
+20,CloudLiveHours,Cloud Live Time in h
+21,Override_Write,Override Control
+22,InstallationPosition_Write,Installation Position
+23,SpSource_Write,Setpoint Source
+24,DDC_BUS_Sp_Write,Setpoint Relative in %
+25,DDC_Sp_V,"Setpoint Analog in Volt, only when Sp_Source=Analog  0-12V"
+26,RelPos_Fb,Relative Position in %
+27,Vmax_Rel_Write,Maximum Flow Limit in %
+28,Upper_Control_Band_4_Flow,Upper_Control_Band_4_Flow_Rel_2_Vnom
+29,Lower_Control_Band_4_Flow,Lower_Control_Band_4_Flow_Rel_2_Vnom
+30,Operating_Time_h_Research,Operating_Time_h
+31,Active_Time_h,Active_Time_h
+32,V_Sp_Rel_2_Vnom,V_Sp_Rel_2_Vnom
+33,Start_And_Stop_Ratio_Rel,Start_And_Stop_Ratio_Rel
+34,dT_upper_dBLim_K,dT_upper_deadbandLim_K
+35,RelPos_Sp,RelPos_Sp
+36,dT_lower_dBLim_K,dT_lower_deadBandLim_K
+37,Sequence_Ste,Sequence_(1=NoDmd|2=Cooling|3=Heating)
+38,DDC_Sp_Rel,DDC_Sp_Rel
+39,dT_avg_last_month_K,last_copleted_month_average
+40,Flow_Volume_Heating_total_m3,Flow_Volume_Heating_total_m3
+41,Flow_Volume_Cooling_total_m3,Flow_Volume_Cooling_total_m3
+42,Active_dT_Manager_total_h,while_DDC_Sp_greater_0
+43,Standby_dT_Manager_total_h,while_DDC_Sp_greater_0
+44,V_Fb_Rel_2_Vnom,V_Fb_Rel_2_Vnom
+45,Flow_Volume_total_m3,Flow_Volume_total_m3
+46,dT_movavg_1h1Update_K,moving_average_1h_1updated_value
+47,Act_Dir_Chngs_Counts,Amount_of_direction_changes_for_actuator
+48,Act_End_Hit_Counts,Amount_of_reaching_end_stops_at_0_and_100_percent
+49,Act_total_travel_fraction,Actutor_cummulated_travel_distance_1_equal_100percent_travel
+50,LoopSim_En_B,LoopSim_En_B
+51,Steady_State_B,Steady_State_in_Control_B
+52,dT_Manager_TurnedOff_total_h,while_DDC_Sp_greater_0
+53,Full_Load_h,while_DDC_Sp_greater_0
+54,Part_Load_h,while_DDC_Sp_greater_0
+55,dT_Manager_Ste,dT_Manager_Ste_(1=disabled|2=dT_selected_not_active|3=dT_selected_active|4=Flow/dT_selected_not_active|5=Flow/dT_selected_active)
+56,DN_Selection_Write,"DN_Selection (2=DN15, 3=DN20, 4=DN25, 5=DN32, 6=DN40, 7=DN50, 8=DN50(AM), 9=DN65, 10=DN80, 11=DN80(EU), 12=DN100, 13=DN125, 14=DN125(EU), 15=DN150, 16=DN65(ANSI250), 17=DN80(ANSI250), 18=DN100(ANSI250), 19=DN125(ANSI250), 20=DN150(ANSI250))"
+57,OpMode_Err_Override_included_raw_value,OpMode_Err_Override_included_(1=Position_Ctrl|2.1=I_Ctrl|2.2=FF_Ctrl|3=Power_Ctrl)
+58,Vmin_Ctrl_En_Write,Vmin_En_(DDC_Sp=0->Vmin)
